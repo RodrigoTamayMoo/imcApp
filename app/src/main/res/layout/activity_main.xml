@@ -14,8 +14,9 @@
         android:text="@string/texto_etiqueta_peso" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
         android:id="@+id/campo_peso"
         />
 
@@ -25,37 +26,39 @@
         android:text="@string/texto_etiqueta_estatura" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
         android:id="@+id/campo_estatura" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="175dp"
             android:layout_height="wrap_content"
             android:text="@string/texto_boton_calcular"
-            android:id="@+id/boton_calcular" />
+            android:id="@+id/boton_calcular"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="175dp"
             android:layout_height="wrap_content"
             android:text="@string/texto_boton_limpiar"
-            android:id="@+id/boton_limpiar" />
+            android:id="@+id/boton_limpiar"/>
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="El índice de Masa Corporal es: "/>
+        android:text="@string/texto_etiqueta_resultado"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/texto_etiqueta_resultado"
-        android:id="@+id/etiqueta_imc" />
+        android:id="@+id/etiqueta_imc"
+        android:text="@string/texto_etiqueta_imc" />
 
 </LinearLayout>

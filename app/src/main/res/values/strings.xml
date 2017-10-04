@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">IMC</string>
-    <string name="texto_etiqueta_peso"> Proporcione el peso en kilogramos: </string>
-    <string name="texto_etiqueta_estatura"> Proporcione la estatura metros: </string>
+    <string name="app_name"> IMC </string>
+    <string name="texto_etiqueta_peso"> Proporcione el Peso (kg) </string>
+    <string name="texto_etiqueta_estatura"> Proporcione la Estatura (m) </string>
     <string name="texto_boton_calcular"> Calcular </string>
     <string name="texto_boton_limpiar"> Limpiar </string>
     <string name="texto_etiqueta_resultado"> El Índice de Masa Corporal es: </string>
+    <string name="texto_etiqueta_imc"> 0.0 </string>
 </resources>
